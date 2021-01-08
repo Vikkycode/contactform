@@ -1,0 +1,23 @@
+
+
+.bg-lightblue{
+    background-color: #20A4F3;
+}
+
+form{
+   
+}
+
+.form-control input{
+    width: 50%;
+}
+
+
+
+.btn{
+    border-radius: 50px
+}
+
+.error{
+    visibility: hidden;
+}

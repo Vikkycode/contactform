@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign in</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="/bootstrap.min.css" rel="stylesheet">
+
+</head>
+<body class=" bg-lightblue">
+    <div class="container">
+       <h1 class="my-5 text-uppercase text-center text-white ">Register</h1>
+       <div class="row d-flex align-items-center justify-content-center ">
+           <div class="col-md-8">
+              <h2 class="border py-2 mb-0 bg-light text-center ">Sign Up</h2>
+              <form class="border bg-light py-4" action=""  id="form">
+                <div class="row">
+                        <div class="col-10 bg-danger text-white fw-bold error py-1 mx-4 py-2" id="error">
+                             <h5 class="text-center "></h5>
+                        </div>
+                </div>
+                <div class="mb-3 mx-4 ">
+                    <label for="" class="form-label mt-3">Full Name: </label>
+                    <input type="text" class="form-control" id="name" placeholder="Full name">
+                    
+                </div>
+                <div class="mb-3 mx-4  my-3">
+                  <label for="" class="form-label">Username: </label>
+                  <input type="text" class="form-control" id="username" placeholder="Username">
+                </div>
+                <div class=" mx-4  my-3">
+                    <label for="" class="form-label">Email address: </label>
+                    <input type="email" class="form-control" id="email" placeholder="Email address">
+                </div>
+                <div class=" mx-4  my-3">
+                  <label for="" class="form-label">Password: </label>
+                  <input type="password" class="form-control" id="password" placeholder="Password">
+                </div>
+                <div class=" mx-4 my-3">
+                    <label for="exampleInputPassword1" class="form-label">Confirm Password: </label>
+                    <input type="password" class="form-control" id="password2" placeholder="Confirm Password">  
+                  </div>
+                <div class="row">
+                <div class="d-flex justify-content-center mb-4">
+                     <button type="submit" class="btn rounded-pill btn-danger fw-bold">Register</button>
+                </div>
+                <div class="d-flex justify-content-center mb-4">
+                    <a href="/index.html" class="btn rounded-pill btn-outline-primary fw-bold">Sign in</a>
+               </div>
+                </div>
+                
+               
+              </form>
+           </div>
+       </div>
+    </div>
+    
+
+
+    <script src="/main.js" ></script>
+</body>
+</html>
